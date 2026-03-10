@@ -1,0 +1,27 @@
+Agenda : Chatbot creation and deploy on AWS
+
+step-1 : we will create virtual enviornment 
+uv venv
+
+step-2 : we will activate this virtual enviornment
+ .venv\Scripts\activate
+
+step-3 : we will create requirements.txt file for store our all packages which is important for creation this bot.
+
+streamlit -> for ui
+
+python-dotenv ---> for load our secret credential to main file
+
+google-generativeai --> this is CLINT SDK
+
+step-4 : We will install all packages usig this command 
+
+uv add -r requirements.txt
+
+step-5 : we will create .env file for storing our secret credentials.
+
+step-6 : we will create app.py for creating our Chatbot.
+
+function create (model+api_key) <----> user query
+
+step-7 : push our repo to github
